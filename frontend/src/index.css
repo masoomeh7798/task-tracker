@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.show-notes {
+    background-image: url('../public/assets/—Pngtree—photo\ download\ vintage\ paper\ background_13382246.jpg');
+    background-size: cover;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.show-notes::-webkit-scrollbar{
+    display: none;
+}
+.sidebar {
+    background-image: url('../public/assets/—Pngtree—photo\ download\ vintage\ paper\ background_13382246.jpg');
+    background-position: center;
+    background-size: auto 220%;
+}
